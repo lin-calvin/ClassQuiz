@@ -1,202 +1,392 @@
+
 {
     "index_page": {
         "meta": {
             "title": "首页",
-            "description": "ClassQuiz是提供给学生的一个类似Kahoot!的测试应用，其开源且可免费使用"
+            "description": "ClassQuiz 是一款为学生设计的似 Kahoot! 测验应用程式，不仅开源还免费"
         },
-        "slogan": "提供测试的开源平台！",
-        "quiz_results_downloadable": "",
-        "completely_free": "",
-        "how_does_classquiz_work": "",
-        "select_answer": "",
-        "user_friendly": "",
-        "no_tracking": "",
-        "find_or_explore": "",
-        "completely_free_content": "",
-        "stats": "",
-        "see_how_many_true_and_false": "",
-        "download_quizzes": "",
-        "dark_mode_content": "",
-        "multilingual": "",
-        "community_driven_content": "",
-        "get_a_quiz": "",
-        "quiz_results_downloadable_content": "",
-        "view_results": "",
-        "choose_answer_wisely": "",
-        "self_hostable_content": "",
-        "german_server_content": "",
-        "get_ranking_and_winners": "",
-        "list_winners": "",
-        "students_site": "",
-        "self_hostable": "",
-        "see_what_true_and_false": "",
-        "german_server": "",
-        "create_a_quiz_from_scratch": "",
-        "teachers_site": "",
-        "check_if_chosen_wisely": "",
-        "user_friendly_content": "",
-        "create_or_import": "",
-        "no_tracking_content": "",
+        "slogan": "开源的测验平台！",
+        "create_or_import": "建立或汇入",
+        "see_all_quizzes": "查看你所有的测验",
+        "teachers_site": "教师页面",
+        "students_site": "学生页面",
+        "no_tracking": "零追踪",
+        "self_hostable": "可自行架设",
+        "german_server": "德国伺服器",
+        "user_friendly": "易于使用",
+        "completely_free": "完全免费",
+        "multilingual": "多语言",
+        "dark_mode": "深色模式",
+        "get_a_quiz": "1. 取得测验",
+        "create_a_quiz_from_scratch": "使用编辑器建立测验并加入图片和更多内容",
+        "import_quiz_from_kahoot_and_edit": "从 Kahoot! 汇入测验并在 ClassQuiz 上进行编辑",
+        "play_quiz": "2. 游玩测验",
+        "select_answer": "选择答案",
+        "choose_answer_wisely": "明智地选择你的答案",
+        "view_results": "检视结果",
+        "check_if_chosen_wisely": "验证你的选择是否正确",
+        "list_winners": "列出赢家",
+        "get_ranking_and_winners": "取得排名和赢家",
+        "why_classquiz": "为什么选择 ClassQuiz？",
+        "download_quizzes": "下载测验",
+        "stats": "ClassQuiz 上已有 {{user_count}} 位使用者和 {{quiz_count}} 个测验。",
+        "features_description": {
+            "1": "ClassQuiz 是一个可以让你建立和管理测验的测验平台。",
+            "2": "最主要的功能之一是允许你汇入 Kahoot! 上的测验。",
+            "3": "编辑器和可将测验结果汇出为 Excel 档为此软体的几个亮点。"
+        },
+        "quiz_results_downloadable": "可被下载的测验结果",
+        "find_or_explore": "搜寻 (或浏览) 其他人建立和汇入的测验",
+        "no_tracking_content": "Kahoot! 会追踪并将你的资料分享给第三方，但 ClassQuiz 不会。",
+        "user_friendly_content": "ClassQuiz 旨在简单，每个人都可以轻鬆使用。",
+        "dark_mode_content": "一个网站最重要的功能之一！",
+        "german_server_content": "ClassQuiz 的伺服器位于德国，并由 netcup 提供。",
+        "how_does_classquiz_work": "ClassQuiz 是如何运作的？",
+        "see_how_many_true_and_false": "看看有多少人是对的或错的",
+        "completely_free_content": "ClassQuiz 完全免费 (对用户而言)，没有任何订阅机制，也不会恼人地重新定向至升级页面。你的捐赠我们不胜感激。",
+        "see_what_true_and_false": "看看什么是对的，什么是错的",
+        "self_hostable_content": "轻鬆地自行架设 ClassQuiz ，资料只由你掌控！",
+        "quiz_results_downloadable_content": "测验结果可以简单地被汇出为 Excel 试算表。(不知道其他类似的服务没有提供此功能)",
+        "community_driven": "社群驱动",
+        "community_driven_content": "ClassQuiz 依靠它的社群提供金援、测试想法、功能请求、翻译...等！你也可以成为 ClassQuiz 的社群成员之一！",
         "multilingual_content": "",
-        "dark_mode": "",
-        "why_classquiz": "",
-        "community_driven": "",
-        "play_quiz": "",
-        "see_all_quizzes": "",
         "download_quizzes_content": ""
     },
-    "result_page": {
-        "correct_answer_plural": "",
-        "player_score": "",
-        "correct_answer": "",
-        "time_taken": "",
-        "player_name": "",
-        "average_score": "",
-        "custom_field": ""
+    "edit_page": {
+        "success_update_title": "测验已更新。",
+        "success_update_body": ""
+    },
+    "create_page": {
+        "success": {
+            "title": "测验已建立。",
+            "body": "让游戏开始吧。"
+        }
     },
     "register_page": {
-        "create_account": "",
-        "greeting": "",
-        "forgot_password?": "",
-        "already_have_account?": ""
+        "create_account": "建立帐户",
+        "forgot_password?": "忘记密码？",
+        "already_have_account?": "已经拥有帐户？",
+        "greeting": "很高兴见到你！"
+    },
+    "login_page": {
+        "login_or_create_account": "登入或建立帐户",
+        "already_have_account": "没有帐户？",
+        "modal": {
+            "error": {
+                "wrong_creds": "电子信箱地址或密码错误。",
+                "unexpected": "非预期错误！",
+                "description": {
+                    "wrong_creds": "请确认你的密码和电子信箱地址是否正确。",
+                    "unexpected": "非预期错误！"
+                }
+            },
+            "success": {
+                "success": "已登入。",
+                "success_check_mail": "已登入。请检查你的电子信箱收件匣。",
+                "description": {
+                    "success": "已登入。",
+                    "success_check_mail": ""
+                }
+            }
+        },
+        "welcome_back": "欢迎回来。",
+        "use_backup_code": "使用备用代码",
+        "email_or_username": "电子信箱或使用者名称"
+    },
+    "editor": {
+        "delete_question": "删除问题",
+        "add_new_question": "新增问题",
+        "delete_answer": "删除答案",
+        "add_new_answer": "新增答案",
+        "not_all_links_imgur_links": "不是所有连结都是 Imgur 连结！",
+        "right_or_true?": "正确？",
+        "no_title": "没有标题...",
+        "bg_image": "背景图片",
+        "slide": {
+            "rectangle": "长方形",
+            "headline": "",
+            "headline_description": "",
+            "rectangle_description": "",
+            "text": "",
+            "text_description": ""
+        },
+        "check_choice_description": "",
+        "text_description": "",
+        "order_description": "",
+        "voting_description": "",
+        "range_description": "",
+        "empty": "",
+        "abcd_description": "",
+        "time_in_seconds": ""
+    },
+    "import_page": {
+        "need_help": "需要帮助？",
+        "visit_docs": "检视说明文件",
+        "url_should_look_like_this": "URL 看起来应该像这样：https://create.kahoot.it/details/...",
+        "a_kahoot_quiz": "一个 Kahoot! 测验",
+        "this_side_classquiz": "你可以在这边汇入 ClassQuiz 测验。",
+        "side_import_kahoot": "你可以在这边汇入 Kahoot! 测验。",
+        "upload_file_ending": "上传副档名为 cqa 的档案",
+        "classquiz_quiz": "一个 ClassQui 测验",
+        "this_side_classquiz_excel": "",
+        "download_template_here": ""
+    },
+    "admin_page": {
+        "start_game": "开始游戏",
+        "get_results": "取得结果",
+        "get_results_and_stop_time": "取得结果并停止计时",
+        "get_final_results": "取得最终结果",
+        "export_results": "汇出结果",
+        "show_next_question": "显示下一个问题",
+        "time_left": "剩馀时间",
+        "stop_time": "停止计时",
+        "no_answers": "没有答案！",
+        "start_by_showing_first_question": "开始时显示第一个问题。",
+        "save_results": "储存结果",
+        "already_registered_as_admin": "此游戏已有一位管理员。",
+        "stop_time_and_solutions": "停止计时并显示解答",
+        "enter_answer_into_field": "在输入栏内输入你的答案！",
+        "show_results": "显示结果",
+        "next_question": "下个问题 ({{question}})",
+        "request_export_results": "",
+        "answers_submitted": "",
+        "download_export_results": ""
+    },
+    "password_reset_page": {
+        "reset_password": "重设密码"
+    },
+    "settings_page": {
+        "old_password": "旧密码",
+        "new_password": "新密码",
+        "repeat_password": "再次输入密码",
+        "change_password_submit": "变更密码！",
+        "check_location": "检查位置",
+        "delete_this_session": "删除此工作阶段",
+        "this_session?": "这个工作阶段？",
+        "security_settings": "安全性设定",
+        "change_avatar": "",
+        "last_seen": "",
+        "add_api_key": ""
+    },
+    "explore_page": {
+        "made_by": "作者为",
+        "imported_by": "汇入者为"
+    },
+    "play_page": {
+        "2nd_place": "第二名",
+        "3rd place": "第三名",
+        "with_out_of": "{{total_question_count}} 题中答对 {{correct_questions}} 题",
+        "1st_place": "第一名",
+        "end_sentence": "完成！本次测验结束。",
+        "your_score": "",
+        "join_description": "在 {{url}} 加入并输入 {{pin}}。",
+        "points_added": "",
+        "final_result_rank": "",
+        "join_by_entering_code": ""
+    },
+    "editor_page": {
+        "add_an_answer": "新增一个答案",
+        "right_click_to_delete": "右键点击一个答案即可将它删除！"
+    },
+    "footer": {
+        "more_details_here": "更多详细资讯",
+        "self_ads": "由 {{mawoka_link}} 在 {{other_link}} 的协助下以 ❤️ 制作。",
+        "donate": "若你觉得这很实用，请考虑 {{donate_link}}。"
+    },
+    "uploader": {
+        "add_image": "新增图片",
+        "images_by_pixabay": "",
+        "upload_video_popup_notice": "",
+        "select_upload_type": "",
+        "upload_a_video": "",
+        "next_page": "",
+        "visit_pixabay": "",
+        "previous_page": "",
+        "search_english_only": "",
+        "upload_video": ""
     },
     "words": {
-        "delete": "",
-        "import": "",
-        "public": "",
+        "find": "寻找",
+        "question": "问题",
+        "answer": "答案",
+        "stats": "统计资料",
+        "features": "功能",
+        "login": "登入",
+        "email": "电子信箱地址",
+        "username": "使用者名称",
+        "password": "密码",
+        "edit": "编辑",
+        "delete": "删除",
+        "public": "公开",
+        "create": "建立",
+        "import": "汇入",
+        "logout": "登出",
+        "title": "标题",
+        "url": "URL",
+        "submit": "提交",
+        "pin": "PIN",
+        "kick": "踢出",
+        "register": "注册",
+        "close": "关闭",
+        "save": "储存",
+        "description": "描述",
+        "image": "图片",
+        "settings": "设定",
+        "repeat_password": "再次输入密码",
+        "explore": "发现",
+        "screenshot": "萤幕截图",
+        "screenshot_plural": "萤幕截图",
+        "browser": "浏览器",
+        "correct": "正确",
+        "result": "结果",
+        "result_plural": "结果",
+        "range": "范围",
+        "multiple_choice": "选择题",
+        "private": "私人",
+        "dashboard": "仪錶板",
+        "question_plural": "问题",
+        "game_pin": "游戏 PIN",
+        "other": "其他",
+        "search": "搜寻",
+        "other_plural": "其他人",
+        "download": "下载",
+        "voting": "投票",
+        "docs": "文件",
+        "donating": "赞助",
+        "practice": "练习",
+        "error": "错误",
+        "continue": "继续",
+        "backup_code": "备用代码",
+        "totp": "基于时间的一次性密码演算法 (TOTP)",
+        "play": "游玩",
+        "text": "文字",
+        "start": "开始",
+        "connect": "连线",
+        "results": "结果",
+        "score": "分数",
+        "player_plural": "玩家",
+        "finish": "完成",
+        "point": "",
+        "name": "姓名",
+        "slide": "投影片",
+        "note": "笔记",
+        "back": "返回",
+        "point_plural": "",
         "upload": "",
-        "player_plural": "",
         "next": "",
-        "totp": "",
-        "score": "",
         "analytics": "",
         "no": "",
         "speed": "",
-        "play": "",
-        "email": "",
-        "backup_code": "",
-        "question": "",
         "files_library": "",
         "check_choice": "",
-        "start": "",
-        "voting": "",
-        "pin": "",
-        "point": "",
-        "docs": "",
-        "description": "",
-        "settings": "",
-        "features": "",
-        "other": "",
-        "title": "",
-        "text": "",
-        "register": "",
-        "username": "",
-        "practice": "",
-        "find": "",
-        "private": "",
         "answer_plural": "",
         "version": "",
         "update": "",
-        "download": "",
-        "slide": "",
-        "repeat_password": "",
-        "kick": "",
-        "url": "",
-        "explore": "",
-        "close": "",
-        "error": "",
         "play_plural": "",
         "rating": "",
         "video": "",
-        "browser": "",
-        "stats": "",
-        "password": "",
-        "donating": "",
-        "save": "",
-        "note": "",
         "order": "",
         "dislike_plural": "",
-        "multiple_choice": "",
         "info": "",
-        "question_plural": "",
-        "results": "",
         "view_plural": "",
         "yes": "",
-        "point_plural": "",
-        "continue": "",
-        "game_pin": "",
         "like": "",
         "dislike": "",
-        "search": "",
         "progress": "",
         "select": "",
-        "screenshot": "",
-        "correct": "",
         "like_plural": "",
-        "screenshot_plural": "",
         "view": "",
-        "name": "",
-        "answer": "",
-        "other_plural": "",
         "count": "",
-        "login": "",
-        "create": "",
         "report": "",
         "quiztivity": "",
         "library": "",
-        "finish": "",
         "normal": "",
         "selected": "",
-        "result": "",
         "unknown": "",
-        "dashboard": "",
-        "back": "",
-        "edit": "",
         "overview": "",
-        "image": "",
-        "result_plural": "",
-        "submit": "",
         "never": "",
-        "connect": "",
-        "quiz": "",
-        "range": "",
-        "logout": ""
+        "quiz": ""
     },
-    "edit_page": {
-        "success_update_body": "",
-        "success_update_title": ""
+    "search_page": {
+        "at_least_3_characters": "输入至少 3 个字元...",
+        "nothing_here": "这裡空无一物..."
     },
-    "admin_page": {
-        "stop_time_and_solutions": "",
-        "already_registered_as_admin": "",
-        "no_answers": "",
-        "start_by_showing_first_question": "",
-        "request_export_results": "",
-        "time_left": "",
-        "show_next_question": "",
-        "stop_time": "",
-        "show_results": "",
-        "save_results": "",
-        "enter_answer_into_field": "",
-        "get_results_and_stop_time": "",
-        "start_game": "",
-        "answers_submitted": "",
-        "download_export_results": "",
-        "next_question": "",
-        "get_results": "",
-        "get_final_results": ""
+    "dashboard": {
+        "search_for_own_quizzes": "搜寻你的测验",
+        "commandpalette_notice": "",
+        "views_n_plays": "",
+        "info_analytics": ""
     },
-    "play_page": {
-        "2nd_place": "",
-        "join_description": "",
-        "1st_place": "",
-        "points_added": "",
-        "final_result_rank": "",
-        "your_score": "",
-        "end_sentence": "",
-        "with_out_of": "",
-        "3rd place": "",
-        "join_by_entering_code": ""
+    "overview_page": {
+        "created_at": "建立于",
+        "question_count": "问题数",
+        "no_quizzes": "点击“建立”按钮或从 Kahoot! 汇入测验。"
+    },
+    "error_page": {
+        "unknown_error_text": "这不应该发生。这可能是我的问题而不是你的，不过说不定你拥有破坏东西的魔法能力...",
+        "404_text": "你正在寻找的页面以删除或不存在。谁知道发生了什么事？"
+    },
+    "avatar_settings": {
+        "skin_color": "肤色",
+        "eyebrow_type": "睫毛",
+        "accessories_type": "眼镜",
+        "facial_hair_color": "鬍子颜色",
+        "mouth_type": "嘴巴",
+        "start_over": "重新开始",
+        "thats_you": "这是你！",
+        "hair_color": "髮色",
+        "facial_hair_type": "鬍子",
+        "hat_color": "帽子颜色",
+        "clothe_type": "服装",
+        "clothe_color": "服装颜色",
+        "go_back": "返回",
+        "clothe_graphic_type": "",
+        "top_type": ""
+    },
+    "results_page": {
+        "quiz_title": "测验标题",
+        "player_count": "玩家人数",
+        "date_played": "测验日期",
+        "no_results_so_far": "尚未储存任何结果...",
+        "general_overview": {
+            "sentence": ""
+        }
+    },
+    "result_page": {
+        "player_name": "玩家名称",
+        "custom_field": "自订栏位",
+        "average_score": "平均分数：{{average_score}}",
+        "time_taken": "花费时间",
+        "correct_answer": "{{count}} 个正确答案",
+        "correct_answer_plural": "{{count}} 个正确答案",
+        "player_score": ""
+    },
+    "security_settings": {
+        "activate_2fa": "启用两步骤验证",
+        "2fa_deactivated": "两步骤验证未启用",
+        "2fa_activated": "两步骤验证已启用",
+        "get_backup_code": "",
+        "enable_totp": "",
+        "disable_totp": "",
+        "totp_setup": {
+            "enter_as_secret_if_no_see_code": "",
+            "scan_to_set_up": "",
+            "totp_setup": "",
+            "do_not_forget_backup_code": ""
+        },
+        "backup_code": "",
+        "backup_codes": {
+            "download_code": "",
+            "your_backup_code": "",
+            "save_somewhere_save": ""
+        },
+        "totp": "",
+        "totp_unavailable": "",
+        "webauthn": "",
+        "add_security_key": "",
+        "webauthn_unavailable": "",
+        "totp_available": "",
+        "webauthn_available": ""
     },
     "file_dashboard": {
         "unset": "",
@@ -213,46 +403,6 @@
         "not_available": "",
         "caption": "",
         "edit_the_image": ""
-    },
-    "avatar_settings": {
-        "accessories_type": "",
-        "go_back": "",
-        "hair_color": "",
-        "clothe_graphic_type": "",
-        "facial_hair_type": "",
-        "facial_hair_color": "",
-        "skin_color": "",
-        "clothe_color": "",
-        "thats_you": "",
-        "start_over": "",
-        "clothe_type": "",
-        "mouth_type": "",
-        "top_type": "",
-        "eyebrow_type": "",
-        "hat_color": ""
-    },
-    "overview_page": {
-        "question_count": "",
-        "created_at": "",
-        "no_quizzes": ""
-    },
-    "settings_page": {
-        "change_avatar": "",
-        "change_password_submit": "",
-        "security_settings": "",
-        "delete_this_session": "",
-        "old_password": "",
-        "check_location": "",
-        "last_seen": "",
-        "this_session?": "",
-        "repeat_password": "",
-        "new_password": "",
-        "add_api_key": ""
-    },
-    "footer": {
-        "donate": "",
-        "more_details_here": "",
-        "self_ads": ""
     },
     "quiztivity": {
         "editor": {
@@ -283,68 +433,6 @@
             }
         }
     },
-    "results_page": {
-        "no_results_so_far": "",
-        "quiz_title": "",
-        "player_count": "",
-        "date_played": "",
-        "general_overview": {
-            "sentence": ""
-        }
-    },
-    "security_settings": {
-        "get_backup_code": "",
-        "enable_totp": "",
-        "disable_totp": "",
-        "totp_setup": {
-            "enter_as_secret_if_no_see_code": "",
-            "scan_to_set_up": "",
-            "totp_setup": "",
-            "do_not_forget_backup_code": ""
-        },
-        "backup_code": "",
-        "2fa_deactivated": "",
-        "backup_codes": {
-            "download_code": "",
-            "your_backup_code": "",
-            "save_somewhere_save": ""
-        },
-        "totp": "",
-        "totp_unavailable": "",
-        "2fa_activated": "",
-        "webauthn": "",
-        "add_security_key": "",
-        "activate_2fa": "",
-        "webauthn_unavailable": "",
-        "totp_available": "",
-        "webauthn_available": ""
-    },
-    "editor": {
-        "delete_answer": "",
-        "check_choice_description": "",
-        "text_description": "",
-        "order_description": "",
-        "add_new_answer": "",
-        "slide": {
-            "headline": "",
-            "headline_description": "",
-            "rectangle": "",
-            "rectangle_description": "",
-            "text": "",
-            "text_description": ""
-        },
-        "voting_description": "",
-        "not_all_links_imgur_links": "",
-        "delete_question": "",
-        "range_description": "",
-        "empty": "",
-        "right_or_true?": "",
-        "abcd_description": "",
-        "time_in_seconds": "",
-        "add_new_question": "",
-        "bg_image": "",
-        "no_title": ""
-    },
     "controllers": {
         "last_seen": "",
         "cancel_update": "",
@@ -360,18 +448,6 @@
         "made_by": "",
         "view_on_kahoot": ""
     },
-    "import_page": {
-        "this_side_classquiz_excel": "",
-        "visit_docs": "",
-        "download_template_here": "",
-        "classquiz_quiz": "",
-        "this_side_classquiz": "",
-        "a_kahoot_quiz": "",
-        "side_import_kahoot": "",
-        "url_should_look_like_this": "",
-        "need_help": "",
-        "upload_file_ending": ""
-    },
     "start_game": {
         "old_school_mode_description": "",
         "old_school_mode": "",
@@ -379,80 +455,12 @@
         "captcha_message": "",
         "normal_mode_description": ""
     },
-    "login_page": {
-        "use_backup_code": "",
-        "email_or_username": "",
-        "already_have_account": "",
-        "modal": {
-            "error": {
-                "description": {
-                    "unexpected": "",
-                    "wrong_creds": ""
-                },
-                "wrong_creds": "",
-                "unexpected": ""
-            },
-            "success": {
-                "success": "",
-                "description": {
-                    "success": "",
-                    "success_check_mail": ""
-                },
-                "success_check_mail": ""
-            }
-        },
-        "login_or_create_account": "",
-        "welcome_back": ""
-    },
-    "password_reset_page": {
-        "reset_password": ""
-    },
     "video_uploader": {
         "time_remaining": "",
         "time_elapsed": ""
     },
-    "explore_page": {
-        "imported_by": "",
-        "made_by": ""
-    },
-    "create_page": {
-        "success": {
-            "title": "",
-            "body": ""
-        }
-    },
-    "error_page": {
-        "unknown_error_text": "",
-        "404_text": ""
-    },
-    "uploader": {
-        "images_by_pixabay": "",
-        "upload_video_popup_notice": "",
-        "add_image": "",
-        "select_upload_type": "",
-        "upload_a_video": "",
-        "next_page": "",
-        "visit_pixabay": "",
-        "previous_page": "",
-        "search_english_only": "",
-        "upload_video": ""
-    },
-    "search_page": {
-        "nothing_here": "",
-        "at_least_3_characters": ""
-    },
-    "dashboard": {
-        "commandpalette_notice": "",
-        "views_n_plays": "",
-        "search_for_own_quizzes": "",
-        "info_analytics": ""
-    },
     "navbar": {
         "donate": ""
-    },
-    "editor_page": {
-        "add_an_answer": "",
-        "right_click_to_delete": ""
     },
     "public_user_page": {
         "no_original_quizzes": "",
